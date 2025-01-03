@@ -13,6 +13,6 @@ function readSelectedText() {
     utterance.lang = "en-US"; // Set to American English
     window.speechSynthesis.speak(utterance);
   } else {
-    alert("Please select some text to read.");
+    alert("Please select some text to read");
   }
 }
